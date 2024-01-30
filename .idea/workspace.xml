@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdbd71d9-ded8-4194-ad24-f2de361770eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/app/src/mocks/recipes.mock.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app/src/models/search.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app/src/pages/exemple-recherche.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app/src/pages/recettes/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app/src/stores/search.store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/eslint.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/app/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/nuxt.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app/src/contents/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/src/contents/start.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app/src/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/src/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strapi/types/generated/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi/types/generated/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strapi/types/generated/contentTypes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi/types/generated/contentTypes.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +54,7 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -73,7 +69,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/antoinelzch/Projects/headless-2024&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lylyb/Desktop/IIM/Jamstack/recipes-project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -83,10 +79,22 @@
     &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/antoinelzch/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/233.14015.89/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\lylyb\\AppData\\Local\\Programs\\PhpStorm\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lylyb\Desktop\IIM\Jamstack\headless-2024\packages\strapi" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-74080bdb84d3-com.jetbrains.php.sharedIndexes-PS-233.11799.297" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -101,6 +109,9 @@
       <workItem from="1706457962985" duration="5109000" />
       <workItem from="1706463955992" duration="41000" />
       <workItem from="1706464004451" duration="1959000" />
+      <workItem from="1706649765702" duration="2362000" />
+      <workItem from="1706652969949" duration="534000" />
+      <workItem from="1706653732541" duration="663000" />
     </task>
     <servers />
   </component>
