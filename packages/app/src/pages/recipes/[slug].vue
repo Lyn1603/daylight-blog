@@ -16,14 +16,14 @@ onMounted(() => {
 <template>
   <div class="container">
     <NuxtLink :to="`/`"> Retour </NuxtLink>
-    <template v-if="pending"> Chargement...</template>
-    <template v-if="recipe">
+    <div v-if="pending"> Chargement...</div>
+    <div v-if="recipe">
 
-      <h2>{{ recipe.data.title }}</h2>
-      <img :src=recipe.data.image.url>
+      <h2 >{{ recipe.data.title }}</h2>
+      <img :src=recipe.data.image.url alt="images">
       <p> {{ recipe.data.description}}</p>
 
-    </template>
+    </div>
   </div>
 </template>
 

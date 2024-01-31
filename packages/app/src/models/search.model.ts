@@ -5,37 +5,22 @@ export interface IRecipe {
   slug: string
   publishedAt: string
   tags: ITag[]
-  image: Image
-  ingredients: IIngredient[]
-  steps: IStep[]
-}
 
-export interface IIngredient {
-  id: number
-  name: string
-  quantity: string
 }
-
-export interface IStep {
-  id: number
-  title: string
-  description: string
-}
-
 export interface ITag {
   id: number
   name: string
   slug: string
 }
 
-export interface Image {
+/*export interface Image {
   id: number
   name: string
   alternativeText: string
   width: number
   height: number
   url: string
-}
+} */
 
 export interface RecipesData {
   data: IRecipe[]

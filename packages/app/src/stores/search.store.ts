@@ -8,11 +8,11 @@ export const useSearchStore = defineStore('search', () => {
   const query = ref('')
   const queryTags = ref<string[]>([])
   const elements = reactive<IRecipe[]>(recipes.value?.data || [])
-  const keys = ['title', 'description', 'ingredients.name']
+  const keys = ['title']
 
   const fuse = computed(() => new Fuse(Array.from(elements), {
     keys,
-    threshold: 0.3,
+    threshold: 0.4,
   }))
 
   const sortedElements = computed(() => {

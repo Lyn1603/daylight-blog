@@ -10,12 +10,6 @@ const { data: tags } = useAsyncData(
     () => find<{ data: ITag[] }>('tags'),
 )
 
-function addTag(tag: string) {
-  if (!search.queryTags.includes(tag))
-    search.queryTags.push(tag)
-  else search.queryTags = search.queryTags.filter(t => t !== tag)
-}
-
 
 </script>
 
