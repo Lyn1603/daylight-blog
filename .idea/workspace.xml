@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdbd71d9-ded8-4194-ad24-f2de361770eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/app/src/components/Card.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/nuxt.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/strapi/types/generated/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi/types/generated/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/src/models/search.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/src/models/search.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/src/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/src/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/src/stores/search.store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/src/stores/search.store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/strapi/types/generated/contentTypes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi/types/generated/contentTypes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,26 +71,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lylyb/Desktop/IIM/Jamstack/recipes-project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\lylyb\\AppData\\Local\\Programs\\PhpStorm\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "C:/Users/lylyb/Desktop/IIM/Jamstack/recipes-project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\lylyb\\AppData\\Local\\Programs\\PhpStorm\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lylyb\Desktop\IIM\Jamstack\headless-2024\packages\strapi" />
@@ -111,7 +124,8 @@
       <workItem from="1706464004451" duration="1959000" />
       <workItem from="1706649765702" duration="2362000" />
       <workItem from="1706652969949" duration="534000" />
-      <workItem from="1706653732541" duration="663000" />
+      <workItem from="1706653732541" duration="1015000" />
+      <workItem from="1706729405231" duration="1005000" />
     </task>
     <servers />
   </component>
