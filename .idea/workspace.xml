@@ -72,6 +72,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/lylyb/Desktop/IIM/Jamstack/recipes-project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -122,6 +123,7 @@
       <workItem from="1706652969949" duration="534000" />
       <workItem from="1706653732541" duration="1015000" />
       <workItem from="1706729405231" duration="1005000" />
+      <workItem from="1706822719739" duration="350000" />
       <workItem from="1706775833826" duration="8075000" />
       <workItem from="1706817826794" duration="362000" />
     </task>
