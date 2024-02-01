@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdbd71d9-ded8-4194-ad24-f2de361770eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/nuxt.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/strapi/types/generated/contentTypes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi/types/generated/contentTypes.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +123,7 @@
       <workItem from="1706653732541" duration="1015000" />
       <workItem from="1706729405231" duration="1005000" />
       <workItem from="1706775833826" duration="8075000" />
+      <workItem from="1706817826794" duration="362000" />
     </task>
     <servers />
   </component>
