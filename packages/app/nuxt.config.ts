@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ['@unocss/reset/normalize.css', '~/assets/css/main.css'],
   modules: ['@unocss/nuxt', '@nuxt/image', '@nuxtjs/strapi', '@pinia/nuxt'],
   strapi: {
-    url: process.env.STRAPI_URL || 'https://recipes-project-3wia.onrender.com/',
+    url: process.env.STRAPI_URL || 'https://recipes-project-3wia.onrender.com/admin/',
     prefix: '/api',
     version: 'v4',
   },
