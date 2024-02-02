@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9029e344-9f8a-436d-8e11-5fc00a2849f3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/strapi/types/generated/contentTypes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/strapi/types/generated/contentTypes.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/src/components/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/src/components/Card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/src/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/src/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +117,7 @@
       <workItem from="1706824580775" duration="1259000" />
       <workItem from="1706868631295" duration="838000" />
       <workItem from="1706873869043" duration="833000" />
+      <workItem from="1706896575560" duration="4916000" />
     </task>
     <servers />
   </component>

@@ -14,29 +14,18 @@ defineProps({
 
 <template >
 
-
-  <div class="card_container" >
     <div class="card">
       <h2>{{ recipe.title }}</h2>
       <img :src=recipe.image.url alt="images">
       <NuxtLink :to="`/recipes/${recipe.slug}`"> Voir les détails </NuxtLink>
     </div>
-  </div>
+
 
 
 </template>
 
 
 <style scoped>
-
-.card_container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-
-}
-
 
 .card {
 

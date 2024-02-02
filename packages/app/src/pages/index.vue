@@ -47,7 +47,7 @@ function addTag(tag: string) {
 
   <hr class="solid">
 
-  <div v-if="search.sortedByTags.length">
+  <div class="card_container" v-if="search.sortedByTags.length">
     <Card
         v-for="recipe in search.sortedByTags"
         :key="recipe.id"
@@ -82,6 +82,14 @@ function addTag(tag: string) {
   flex-direction: row;
   gap: 15px;
   align-items: center;
+}
+
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
 }
 
 hr.solid {
