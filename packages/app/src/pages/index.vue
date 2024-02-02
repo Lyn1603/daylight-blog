@@ -89,6 +89,8 @@ function addTag(tag: string) {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+  gap: 30px;
 
 }
 
