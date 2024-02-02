@@ -12,7 +12,7 @@ defineProps({
 </script>
 
 
-<template>
+<template >
 
 
   <div class="card_container" >
@@ -33,8 +33,8 @@ defineProps({
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
-  transition: transform 0.3s ease;
+  align-items: center;
+
 }
 
 
@@ -62,8 +62,6 @@ defineProps({
 }
 
 
-
-
 .card a {
   display: inline-block;
   background-color: #9e7c60;
@@ -77,21 +75,6 @@ defineProps({
 .card a:hover {
   background-color: #954d25;
 }
-
-.card ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.card li {
-  margin-bottom: 20px;
-}
-
-.card li:last-child {
-  margin-bottom: 0;
-}
-
 
 
 </style>

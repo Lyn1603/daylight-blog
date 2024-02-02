@@ -820,7 +820,7 @@ export interface ApiTagTag extends Schema.CollectionType {
   };
   attributes: {
     name: Attribute.String & Attribute.Required;
-    slug: Attribute.UID;
+    slug: Attribute.UID<'api::tag.tag', 'name'>;
     recipes: Attribute.Relation<
       'api::tag.tag',
       'manyToMany',

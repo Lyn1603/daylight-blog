@@ -10,7 +10,11 @@ const { data: tags } = useAsyncData(
     () => find<{ data: ITag[] }>('tags'),
 )
 
-
+function addTag(tag: string) {
+  if (!search.queryTags.includes(tag))
+    search.queryTags.push(tag)
+  else search.queryTags = search.queryTags.filter(t => t !== tag)
+}
 </script>
 
 <template>
@@ -22,10 +26,26 @@ const { data: tags } = useAsyncData(
       <input id="search" v-model="search.query" class="px-4 py-2" type="search">
     </div>
 
+    <div>
+      <div class="filter">
+        <p>Filtrer par tag :</p>
+        <button
+            v-for="tag in tags?.data"
+            :key="tag.id"
+            :class="['tag-button', { 'active': search.queryTags.includes(tag.slug) }]"
+            :title="tag.name"
+            @click="addTag(tag.slug)"
+        >
+          {{ tag.name }}
+        </button>
+
+      </div>
+
+    </div>
+
   </div>
+
   <hr class="solid">
-
-
 
   <div v-if="search.sortedByTags.length">
     <Card
@@ -53,6 +73,12 @@ const { data: tags } = useAsyncData(
 
 .search{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter{
+  display: flex;
   flex-direction: row;
   gap: 15px;
   align-items: center;
@@ -62,5 +88,19 @@ hr.solid {
   border-top: 3px solid #951E1A;
 }
 
+.tag-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
 
+.tag-button.active {
+  background-color: #954d25;
+  color: #fff;
+}
+
+.tag-button:not(.active) {
+  background-color: #9e7c60;
+  color: #333;
+}
 </style>
