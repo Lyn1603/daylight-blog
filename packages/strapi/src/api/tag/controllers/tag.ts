@@ -9,7 +9,7 @@ export default factories.createCoreController('api::tag.tag', ({ strapi }) => ({
     const { id } = ctx.params
     const entity = await strapi.db.query('api::tag.tag').findOne({
       where: { slug: id },
-      populate: ['title', 'description'],
+      populate: ['name'],
     })
     const sanitizedEntity = await this.sanitizeOutput(entity, ctx)
     return this.transformResponse(sanitizedEntity)
