@@ -20,15 +20,15 @@ function addTag(tag: string) {
 <template>
 
   <div class="header">
-    <h1>Mon Blog de recettes </h1>
+    <h1> My Daylight Blog </h1>
     <div class="search">
-      <label for="search">Chercher une recette :</label>
+      <label for="search">Choose a recipe :</label>
       <input id="search" v-model="search.query" class="px-4 py-2" type="search">
     </div>
 
     <div>
       <div class="filter">
-        <p>Filtrer par tag :</p>
+        <p>Tag filter :</p>
         <button
             v-for="tag in tags?.data"
             :key="tag.id"
@@ -55,7 +55,7 @@ function addTag(tag: string) {
     />
   </div>
   <p v-else>
-    Aucun résultat pour cette recherche
+    Fail to load the ressources
   </p>
 
 

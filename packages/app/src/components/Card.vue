@@ -17,7 +17,7 @@ defineProps({
     <div class="card">
       <h2>{{ recipe.title }}</h2>
       <img :src=recipe.image.url alt="images">
-      <NuxtLink :to="`/recipes/${recipe.slug}`"> Voir les détails </NuxtLink>
+      <NuxtLink :to="`/recipes/${recipe.slug}`"> More details </NuxtLink>
     </div>
 
 
