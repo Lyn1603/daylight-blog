@@ -113,4 +113,17 @@ hr.solid {
   background-color: #9e7c60;
   color: #333;
 }
+
+@media only screen and (max-width: 900px) {
+  .header {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .search {
+    margin-top: 0;
+  }
+}
+
 </style>
